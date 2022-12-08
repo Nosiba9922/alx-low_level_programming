@@ -1,0 +1,2 @@
+#!/bin/bask
+Bcc -E $CFILE -o c
