@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - main blok
- * Return: Always 0 (Success)
- */
+*main - main blok
+*Return: Always 0 (Success)
+*/
 
 int main(void)
 {
