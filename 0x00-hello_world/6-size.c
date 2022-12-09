@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 /**
 *main - main blok
+*
 *Return: Always 0 (Success)
 */
 
