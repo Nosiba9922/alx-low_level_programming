@@ -3,8 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 /**
- * main - main block
- * Description:Get a random number and check its last digit,compare it with 5
+ * main - main blok
  *
  * Return: 0
  */
