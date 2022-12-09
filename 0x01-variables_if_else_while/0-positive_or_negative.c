@@ -1,4 +1,3 @@
-#include <stdio.h>i
 #include <stdio.h>
 #include <stdio.h>
 /* more headers goes there */
