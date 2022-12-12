@@ -2,12 +2,14 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Get a random and check its last digit, compare it with 5
+ * Description: compare the chracter with z
  * Return: 0
  */
 int main(void)
 {
+
 	char c = 'a';
+
 	while (c <= 'z')
 	{
 		putchar(c);
