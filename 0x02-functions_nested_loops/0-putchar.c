@@ -7,15 +7,15 @@
 
 int main(void)
 {
-	char c[9] = "_putchar";
-	int i = 0;
+	char *sh = "_putchar"
 
-	while (i < 8)
+	while (*sh)
 
 	{
-		_putchar(c[i]);
-		i++
+		_putchar(*sh);
+		sh++;
 	}
 	_putchar('\n');
+
 	return (0);
 }
