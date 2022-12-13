@@ -3,26 +3,24 @@
 #include <time.h>
 /* more headers goes there */
 /**
-*/ *betty style doc for function main goes there * /
-
-main - main blok
-
- Return : 0
- /
+ * main - main blok
+ * Description: Get a random number and check its last digit, compare it with 5
+ *Return : 0
+ */
 int main(void)
  {
-int n;
-int m;
-srand(time(0));
+	 int n;
+	 int m;
 
-n = rand() - RAND_MAX / 2;
-m = n % 10;
-if (m > 5)
-printf("Last digit of %d is %d and is greater than 5\n", n, m);
-if m = 0
- printf("Last digit of %d is %d and is 0\n", n, m);
-if (m < 6 && m != 0)
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
-*/*your code goes there*/
-return (0);
-*}
+	 srand(time(0));
+	 n = rand() - RAND_MAX / 2;
+	 m = n % 10;
+	 if (m > 5)
+		 printf("Last digit of %d is %d and is greater than 5\n", n, m)
+			 if m = 0
+
+	        printf("Last digit of %d is %d and is 0\n", n, m);
+	 if (m < 6 && m != 0)
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
+	 return (0);
+}
