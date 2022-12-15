@@ -14,4 +14,4 @@ int main(void)
 
 	return (0);
 }
-carrie@ubuntu:/debugging$
+carrie@ubuntu : / debugging$
