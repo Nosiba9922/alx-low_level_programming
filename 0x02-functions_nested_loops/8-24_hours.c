@@ -4,6 +4,7 @@
  * jack_bauer - A program that prints minute of the day
  * Return: void
  */
+void jack_bauer(void)
 {
 	int a, b, c, d;
 
