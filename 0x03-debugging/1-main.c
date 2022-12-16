@@ -1,5 +1,5 @@
 #include <stdio.h>
-#te loop avoided! \\o/\n");include "main.h"
+#include "main.h"
 
 /**
  * main - causes an infinite loop 
