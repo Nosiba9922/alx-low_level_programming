@@ -1,16 +1,22 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line
- * @n: number of tines _ should be printed
+ * print_diagonal - Program that draws a diagonal line on the terminal
+ * @n: represents the number of times \ is printed
  */
 void print_line(int n)
 {
-	int i;
+	int x, y;
 
-	for (i = 1; i <= n; i++)
+	for (x = 0; x < n; x++)
 	{
-		_putchar('_');
+		for (y = 0; y < x; y++)
+		{
+			_putchar(' ');
+		}
+		_putchar('\\');
+		if (x < (n - 1))
+			_putchar('\n');
 	}
 	_putchar('\n');
 }
