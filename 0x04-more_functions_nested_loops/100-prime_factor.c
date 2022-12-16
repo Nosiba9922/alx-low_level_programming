@@ -18,4 +18,6 @@ int main(void)
 			n--;
 		}
 	}
+	printf("%lu\n", n);
+	return (0);
 }
