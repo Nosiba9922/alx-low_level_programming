@@ -4,7 +4,7 @@
  * print_diagonal - Program that draws a diagonal line on the terminal
  * @n: represents the number of times \ is printed
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int x, y;
 
