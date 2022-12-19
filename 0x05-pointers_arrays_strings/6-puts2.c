@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**(
+/**
  * puts2 - A function that prints one char out of 2 of a string.
  *  @str: string
  *  Return: no return
