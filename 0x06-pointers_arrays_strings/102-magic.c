@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <main.h>
+/**
+ * Return: the pointer to dest.
+ */
 
 int main(void)
 {
